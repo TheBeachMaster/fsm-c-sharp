@@ -3,7 +3,9 @@ A simple FSM written in C#
  
 > Creating Project 
 
-+ `dotnet new console -o gen-fsm` 
+ ```bash 
+ $ dotnet new console -o gen-fsm 
+ ``` 
 
 > Details 
 
