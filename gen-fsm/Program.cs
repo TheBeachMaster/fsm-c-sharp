@@ -33,10 +33,7 @@ namespace gen_fsm
                 Transitions = transitions;
             }
 
-            public override int GetHashCode()
-            {
-                return 19 + 32 * CurrentState.GetHashCode() + 32 * Transitions.GetHashCode();
-            }
+            public override int GetHashCode() => 19 + 32 * CurrentState.GetHashCode() + 32 * Transitions.GetHashCode();
 
             public override bool Equals(object obj)
             {
